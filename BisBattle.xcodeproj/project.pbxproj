@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F13A3BE20E394EA00019804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A3BD20E394EA00019804 /* AppDelegate.swift */; };
+		3F13A3C020E394EA00019804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A3BF20E394EA00019804 /* ViewController.swift */; };
+		3F13A3C320E394EA00019804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A3C120E394EA00019804 /* Main.storyboard */; };
+		3F13A3C520E394ED00019804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A3C420E394ED00019804 /* Assets.xcassets */; };
+		3F13A3C820E394ED00019804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A3C620E394ED00019804 /* LaunchScreen.storyboard */; };
+		3F13A3D020E39FAC00019804 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A3CF20E39FAC00019804 /* Storyboard.storyboard */; };
+		3F13A42020E4D80100019804 /* плей.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A41F20E4D80100019804 /* плей.png */; };
+		3F13A42220E4D87200019804 /* настройки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42120E4D87100019804 /* настройки.jpg */; };
+		3F13A42420E4D9A600019804 /* 160130-ТриКруга-Поле-01-син.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42320E4D9A600019804 /* 160130-ТриКруга-Поле-01-син.jpg */; };
+		3F13A42620E4DCB200019804 /* нет басы.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42520E4DCB200019804 /* нет басы.jpg */; };
+		3F13A42820E4DCB700019804 /* басы.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42720E4DCB700019804 /* басы.png */; };
+		3F13A42A20E4DCC000019804 /* russia_russian_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42920E4DCC000019804 /* russia_russian_flag.png */; };
+		3F13A42C20E4DCC800019804 /* не русские.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42B20E4DCC800019804 /* не русские.jpg */; };
+		3F13A42E20E4DCCE00019804 /* фошист.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42D20E4DCCD00019804 /* фошист.jpeg */; };
+		3F13A43020E4DCDE00019804 /* enter-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A42F20E4DCDD00019804 /* enter-2.png */; };
+		3F13A43220E4DE2D00019804 /* restart-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A43120E4DE2D00019804 /* restart-512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F13A3BA20E394EA00019804 /* BisBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BisBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F13A3BD20E394EA00019804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F13A3BF20E394EA00019804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F13A3C220E394EA00019804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F13A3C420E394ED00019804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F13A3C720E394ED00019804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F13A3C920E394ED00019804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F13A3CF20E39FAC00019804 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3F13A41F20E4D80100019804 /* плей.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "плей.png"; path = "../../../Downloads/плей.png"; sourceTree = "<group>"; };
+		3F13A42120E4D87100019804 /* настройки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "настройки.jpg"; path = "../../../Downloads/настройки.jpg"; sourceTree = "<group>"; };
+		3F13A42320E4D9A600019804 /* 160130-ТриКруга-Поле-01-син.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "160130-ТриКруга-Поле-01-син.jpg"; path = "../../../Downloads/160130-ТриКруга-Поле-01-син.jpg"; sourceTree = "<group>"; };
+		3F13A42520E4DCB200019804 /* нет басы.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "нет басы.jpg"; path = "../../../Downloads/нет басы.jpg"; sourceTree = "<group>"; };
+		3F13A42720E4DCB700019804 /* басы.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "басы.png"; path = "../../../Downloads/басы.png"; sourceTree = "<group>"; };
+		3F13A42920E4DCC000019804 /* russia_russian_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = russia_russian_flag.png; path = ../../../Downloads/russia_russian_flag.png; sourceTree = "<group>"; };
+		3F13A42B20E4DCC800019804 /* не русские.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "не русские.jpg"; path = "../../../Downloads/не русские.jpg"; sourceTree = "<group>"; };
+		3F13A42D20E4DCCD00019804 /* фошист.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "фошист.jpeg"; path = "../../../Downloads/фошист.jpeg"; sourceTree = "<group>"; };
+		3F13A42F20E4DCDD00019804 /* enter-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "enter-2.png"; path = "../../../Downloads/enter-2.png"; sourceTree = "<group>"; };
+		3F13A43120E4DE2D00019804 /* restart-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "restart-512.png"; path = "../../../Downloads/restart-512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F13A3B720E394EA00019804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F13A3B120E394EA00019804 = {
+			isa = PBXGroup;
+			children = (
+				3F13A3BC20E394EA00019804 /* BisBattle */,
+				3F13A3BB20E394EA00019804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F13A3BB20E394EA00019804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F13A3BA20E394EA00019804 /* BisBattle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F13A3BC20E394EA00019804 /* BisBattle */ = {
+			isa = PBXGroup;
+			children = (
+				3F13A3BD20E394EA00019804 /* AppDelegate.swift */,
+				3F13A3BF20E394EA00019804 /* ViewController.swift */,
+				3F13A3C120E394EA00019804 /* Main.storyboard */,
+				3F13A3CF20E39FAC00019804 /* Storyboard.storyboard */,
+				3F13A43120E4DE2D00019804 /* restart-512.png */,
+				3F13A42F20E4DCDD00019804 /* enter-2.png */,
+				3F13A42D20E4DCCD00019804 /* фошист.jpeg */,
+				3F13A42B20E4DCC800019804 /* не русские.jpg */,
+				3F13A42920E4DCC000019804 /* russia_russian_flag.png */,
+				3F13A42720E4DCB700019804 /* басы.png */,
+				3F13A42520E4DCB200019804 /* нет басы.jpg */,
+				3F13A42320E4D9A600019804 /* 160130-ТриКруга-Поле-01-син.jpg */,
+				3F13A42120E4D87100019804 /* настройки.jpg */,
+				3F13A41F20E4D80100019804 /* плей.png */,
+				3F13A3C420E394ED00019804 /* Assets.xcassets */,
+				3F13A3C620E394ED00019804 /* LaunchScreen.storyboard */,
+				3F13A3C920E394ED00019804 /* Info.plist */,
+			);
+			path = BisBattle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F13A3B920E394EA00019804 /* BisBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F13A3CC20E394ED00019804 /* Build configuration list for PBXNativeTarget "BisBattle" */;
+			buildPhases = (
+				3F13A3B620E394EA00019804 /* Sources */,
+				3F13A3B720E394EA00019804 /* Frameworks */,
+				3F13A3B820E394EA00019804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BisBattle;
+			productName = BisBattle;
+			productReference = 3F13A3BA20E394EA00019804 /* BisBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F13A3B220E394EA00019804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = eduardo;
+				TargetAttributes = {
+					3F13A3B920E394EA00019804 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F13A3B520E394EA00019804 /* Build configuration list for PBXProject "BisBattle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F13A3B120E394EA00019804;
+			productRefGroup = 3F13A3BB20E394EA00019804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F13A3B920E394EA00019804 /* BisBattle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F13A3B820E394EA00019804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F13A42E20E4DCCE00019804 /* фошист.jpeg in Resources */,
+				3F13A42820E4DCB700019804 /* басы.png in Resources */,
+				3F13A42420E4D9A600019804 /* 160130-ТриКруга-Поле-01-син.jpg in Resources */,
+				3F13A42020E4D80100019804 /* плей.png in Resources */,
+				3F13A3C820E394ED00019804 /* LaunchScreen.storyboard in Resources */,
+				3F13A3D020E39FAC00019804 /* Storyboard.storyboard in Resources */,
+				3F13A43220E4DE2D00019804 /* restart-512.png in Resources */,
+				3F13A42620E4DCB200019804 /* нет басы.jpg in Resources */,
+				3F13A3C520E394ED00019804 /* Assets.xcassets in Resources */,
+				3F13A43020E4DCDE00019804 /* enter-2.png in Resources */,
+				3F13A3C320E394EA00019804 /* Main.storyboard in Resources */,
+				3F13A42C20E4DCC800019804 /* не русские.jpg in Resources */,
+				3F13A42A20E4DCC000019804 /* russia_russian_flag.png in Resources */,
+				3F13A42220E4D87200019804 /* настройки.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F13A3B620E394EA00019804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F13A3C020E394EA00019804 /* ViewController.swift in Sources */,
+				3F13A3BE20E394EA00019804 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F13A3C120E394EA00019804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F13A3C220E394EA00019804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F13A3C620E394ED00019804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F13A3C720E394ED00019804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F13A3CA20E394ED00019804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F13A3CB20E394ED00019804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F13A3CD20E394ED00019804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BisBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BisBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F13A3CE20E394ED00019804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BisBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BisBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F13A3B520E394EA00019804 /* Build configuration list for PBXProject "BisBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F13A3CA20E394ED00019804 /* Debug */,
+				3F13A3CB20E394ED00019804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F13A3CC20E394ED00019804 /* Build configuration list for PBXNativeTarget "BisBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F13A3CD20E394ED00019804 /* Debug */,
+				3F13A3CE20E394ED00019804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F13A3B220E394EA00019804 /* Project object */;
+}
